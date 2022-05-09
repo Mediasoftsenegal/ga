@@ -1,0 +1,99 @@
+CREATE TABLE `bo_Client` (
+  `ID_client` <type>,
+  `Nom client` <type>,
+  `Type client ` <type>,
+  `Adresse` <type>,
+  `  Tel` <type>,
+  `  email` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Fournisseur` (
+  `ID_Fournisseur` <type>,
+  `Nom_Fournisseur` <type>,
+  `Adresse` <type>,
+  `Tel` <type>,
+  `email` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Commandes` (
+  `Id_commande` <type>,
+  `Date commande` <type>,
+  `Nom client` <type>,
+  `Montant commande` <type>
+);
+
+CREATE TABLE `bo_Stock Dépôt` (
+  `ID_stock_depot` <type>,
+  `id_article` <type>,
+  `  ID_Commande` <type>,
+  `  ID_vente` <type>,
+  `Quantité inittiale` <type>,
+  `  Quantite achetee` <type>,
+  `  Quantite vendue` <type>,
+  `Datemaj` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Detail_vente` (
+  `ID_Vente` <type>,
+  `Id_article` <type>,
+  `Prix vente` <type>,
+  `Quantite` <type>
+);
+
+CREATE TABLE `bo_Detail_commande` (
+  `Id_article` <type>,
+  `Prix commande` <type>,
+  `Quantite` <type>,
+  `ID_Commande` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Camion` (
+  `ID_Camion` <type>,
+  `Num Immatriculation` <type>,
+  `  Nom chauffeur` <type>,
+  `couleur` <type>,
+  `capacité` <type>
+);
+
+CREATE TABLE `bo_Vente` (
+  `ID_Vente` <type>,
+  `  ID_Client` <type>,
+  `Date vente` <type>,
+  `Montant vente` <type>,
+  `  Numero facture` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Commandes` (
+  `ID_commande` <type>,
+  `Date commande` <type>,
+  `ID_Fournisseur` <type>,
+  `  Numéro commande` <type>,
+  `Montant commande` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Aricles` (
+  `ID_article` <type>,
+  `Libelle` <type>,
+  `Prix achat` <type>,
+  `Conditionnement` <type>,
+  `Catégorie` <type>,
+  `  Seuil` <type>,
+  `ID_Fournisseur` <type>,
+  `` <type>
+);
+
+CREATE TABLE `bo_Stockcamion` (
+  `ID_stock_camion` <type>,
+  `id_article` <type>,
+  `  ID_Camion` <type>,
+  `Quantité` <type>,
+  `  ID_vente` <type>,
+  `Datemaj` <type>
+);
+
