@@ -1,0 +1,148 @@
+[27-Apr-2022 02:22:10 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:22:10 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:22:10 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:23:49 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:23:49 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:23:49 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:24:22 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:24:22 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:24:22 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:26:47 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:26:47 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:26:47 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:37:04 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:37:04 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:37:04 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:47:37 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:47:37 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:47:37 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:48:21 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:48:21 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:48:21 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:58:20 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:58:20 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:58:20 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 02:58:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 65
+[27-Apr-2022 12:40:50 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 12:40:50 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 12:40:50 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 12:40:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 65
+[27-Apr-2022 12:40:54 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 12:40:54 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 12:40:54 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 12:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 65
+[27-Apr-2022 14:07:09 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:07:09 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:07:09 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 65
+[27-Apr-2022 14:32:09 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:32:09 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:32:09 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:32:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 65
+[27-Apr-2022 14:32:38 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:32:38 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:32:38 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:33:37 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:33:37 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:33:37 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:35:22 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:35:22 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:35:22 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:36:31 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:36:31 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:36:31 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:37:04 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 69
+[27-Apr-2022 14:37:23 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:37:23 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:37:23 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:43:23 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:43:23 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:43:23 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:45:35 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:45:35 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:45:35 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:46:34 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:46:34 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:46:34 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:48:48 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:48:48 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:48:48 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:51:56 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:51:56 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:51:56 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:51:59 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:51:59 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 14:51:59 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:15:34 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:15:34 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:15:34 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:29:36 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:29:36 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:29:36 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:31:19 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:31:19 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:31:19 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:32:41 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:32:41 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:32:41 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:42:55 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:42:55 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:42:55 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:45:18 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:45:18 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:45:18 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:48:48 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:48:48 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:48:48 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:48:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:127
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 127
+[27-Apr-2022 15:49:04 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:49:04 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:49:04 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:49:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:127
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 127
+[27-Apr-2022 15:49:35 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:49:35 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:49:35 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:49:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php:127
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 127
+[27-Apr-2022 15:50:11 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:50:11 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:50:11 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:52:31 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:52:31 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:52:31 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:52:57 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:52:57 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:52:57 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:53:51 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:53:51 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:53:51 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:54:40 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:54:40 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:54:40 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 2
+[27-Apr-2022 15:57:00 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 141
+[27-Apr-2022 15:58:46 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 141
+[27-Apr-2022 16:00:07 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 141
+[27-Apr-2022 16:02:12 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /home/groupe10/ga.groupe-alpages.com/commandes/commandes.php on line 141

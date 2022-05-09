@@ -1,0 +1,42 @@
+[04-May-2022 01:48:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 138
+[04-May-2022 01:50:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 138
+[04-May-2022 01:51:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 137
+[04-May-2022 01:51:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 137
+[04-May-2022 01:51:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 137
+[04-May-2022 01:55:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 134
+[04-May-2022 02:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 138
+[04-May-2022 02:05:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/param/doli.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 138
+[04-May-2022 02:06:18 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 139
+[04-May-2022 02:06:25 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 139
+[04-May-2022 02:07:54 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 139
+[04-May-2022 02:09:35 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 139
+[04-May-2022 02:10:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 139
+[04-May-2022 02:16:44 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 144
+[04-May-2022 02:20:22 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 144
+[04-May-2022 02:23:20 UTC] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 2 given in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 143
+[04-May-2022 02:34:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/param/doli.php:139) in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 172
+[04-May-2022 02:37:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/param/doli.php:139) in /home/groupe10/ga.groupe-alpages.com/param/doli.php on line 171

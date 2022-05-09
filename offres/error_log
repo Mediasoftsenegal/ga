@@ -1,0 +1,89 @@
+[24-Apr-2022 21:11:12 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:11:12 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:11:12 UTC] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:12:55 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:12:55 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:12:55 UTC] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:12:56 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:12:56 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 21:12:56 UTC] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 1
+[24-Apr-2022 22:33:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[24-Apr-2022 22:33:19 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[24-Apr-2022 22:33:19 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[24-Apr-2022 22:33:19 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:11:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:11:30 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:11:30 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:11:30 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:12:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:12:34 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:12:34 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:12:34 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:12:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:12:40 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:12:40 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:12:40 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:16:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:16:17 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:16:17 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:16:17 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:17:12 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:12 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:12 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:17:48 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:48 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:48 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:17:51 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:51 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:17:51 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:18:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:18:14 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:18:14 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:18:14 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:18:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:18:33 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:18:33 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:18:33 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:19:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:19:08 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:19:08 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:19:08 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:20:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:20:10 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:20:10 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:20:10 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:20:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:20:13 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:20:13 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:20:13 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:21:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:21:48 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:21:48 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:21:48 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:21:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/header.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:21:51 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:21:51 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:21:51 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:22:47 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:22:47 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:22:47 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:23:12 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:23:12 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:23:12 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:25:15 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:25:15 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:25:15 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:26:40 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:26:40 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 00:26:40 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/offres/offres.php on line 199
+[25-Apr-2022 01:22:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/groupe10/ga.groupe-alpages.com/offres/details.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/offres/details.php on line 5
+[26-Apr-2022 00:34:39 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/offres/douguel.php on line 108
+[26-Apr-2022 00:34:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/offres/douguel.php on line 108
+[26-Apr-2022 00:36:42 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/offres/douguel.php on line 108
+[26-Apr-2022 00:37:58 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/offres/douguel.php on line 108

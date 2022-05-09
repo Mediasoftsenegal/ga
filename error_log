@@ -1,0 +1,108 @@
+[24-Apr-2022 22:38:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/access.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/access.php on line 15
+[24-Apr-2022 22:39:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/access.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/access.php on line 14
+[24-Apr-2022 22:47:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/access.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/access.php on line 14
+[24-Apr-2022 22:53:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/access.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/access.php on line 14
+[24-Apr-2022 23:20:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/access.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/access.php on line 14
+[24-Apr-2022 23:20:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/groupe10/ga.groupe-alpages.com/access.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/access.php on line 14
+[24-Apr-2022 23:20:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:21:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:21:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:22:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:23:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:23:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:23:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:25:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:27:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:27:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:28:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:28:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:28:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:30) in /home/groupe10/ga.groupe-alpages.com/access.php on line 31
+[24-Apr-2022 23:29:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 32
+[24-Apr-2022 23:29:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 32
+[24-Apr-2022 23:29:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 32
+[24-Apr-2022 23:30:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 32
+[24-Apr-2022 23:30:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 32
+[24-Apr-2022 23:31:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 32
+[24-Apr-2022 23:31:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:9) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:31:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:9) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:32:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:9) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:33:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:33:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:33:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:8) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[24-Apr-2022 23:34:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:34:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:36:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:36:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:36:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:37:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:7) in /home/groupe10/ga.groupe-alpages.com/access.php on line 34
+[24-Apr-2022 23:37:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 35
+[24-Apr-2022 23:42:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:45:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:46:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:47:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:48:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:48:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:48:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:48:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:49:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:50:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:50:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:50:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[24-Apr-2022 23:50:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:6) in /home/groupe10/ga.groupe-alpages.com/access.php on line 36
+[25-Apr-2022 00:00:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:01:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:01:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:03:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:03:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:03:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:04:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:04:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:05:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 00:06:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:18) in /home/groupe10/ga.groupe-alpages.com/access.php on line 27
+[25-Apr-2022 00:08:50 UTC] PHP Warning:  require(../header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/tabbord.php on line 2
+[25-Apr-2022 00:08:50 UTC] PHP Warning:  require(../header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/tabbord.php on line 2
+[25-Apr-2022 00:08:50 UTC] PHP Fatal error:  require(): Failed opening required '../header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/tabbord.php on line 2
+[25-Apr-2022 00:08:54 UTC] PHP Warning:  require(../header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/tabbord.php on line 2
+[25-Apr-2022 00:08:54 UTC] PHP Warning:  require(../header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/tabbord.php on line 2
+[25-Apr-2022 00:08:54 UTC] PHP Fatal error:  require(): Failed opening required '../header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/tabbord.php on line 2
+[25-Apr-2022 00:10:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/tabbord.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:10:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/tabbord.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:11:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/tabbord.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 00:12:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/tabbord.php:1) in /home/groupe10/ga.groupe-alpages.com/header.php on line 43
+[25-Apr-2022 11:13:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[25-Apr-2022 11:13:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[27-Apr-2022 00:54:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[27-Apr-2022 00:54:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[27-Apr-2022 00:54:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[27-Apr-2022 00:55:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[27-Apr-2022 09:58:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/access.php:32) in /home/groupe10/ga.groupe-alpages.com/access.php on line 33
+[04-May-2022 17:10:10 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/groupe10/ga.groupe-alpages.com/douguel0.php on line 115
+[04-May-2022 17:25:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/groupe10/ga.groupe-alpages.com/douguel0.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/douguel0.php on line 111
+[04-May-2022 17:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/groupe10/ga.groupe-alpages.com/douguel0.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/groupe10/ga.groupe-alpages.com/douguel0.php on line 111
