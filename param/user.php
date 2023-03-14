@@ -8,7 +8,7 @@ if (isset($_GET['id'])){
 }
 ?>
 <!--div class="main-panel"-->
-<div class="main-panel">
+<div class="content-wrapper">
     <div class="content-wrapper">
         <div class="row" id="proBanner">
             <div class="col-12">
@@ -30,16 +30,33 @@ if (isset($_GET['id'])){
                     <!--div id="visit-sale-chart-legend" class="rounded-legend legend-horizontal legend-top-right float-right"-->
                          <form name="diapou" class="forms-sample" action="doli.php"  onsubmit="return W3docs()" method="POST">
                          <div class="form-group row">
-                        <label for="exampleInputMobile" class="col-sm-3 col-form-label">Prénom & Nom</label>
-                        <div class="col-sm-9">
-                        <?php if (isset($_GET['id'])){?>
-                          <input type="hidden" name="id_user" class="form-control" id="exampleInputMobile" value="<? echo $donne['id_user'];?>">
-                          <br/>
-                          <input type="text" name="nom_afficher" id="nom_afficher" class="form-control" id="exampleInputMobile" value="<? echo $donne['nom_afficher'];?>">
-                          <?php } else { ?>
-                            <input type="text" name="nom_afficher" id="nom_afficher" class="form-control" id="exampleInputMobile" placeholder="Prénom & Nom" required>
-                            <?php }?>
-                        </div>
+						<label for="exampleInputMobile" class="col-sm-3 col-form-label">Prénom & Nom</label>
+						 <div class="col-sm-9">
+			  
+					<?  $db = new PDO('mysql:host=localhost;dbname=groupe10_ga', 'groupe10_groupeal', 'Alpages@2017'); ?>
+					
+					<? if (isset($_GET['id'])){
+						
+					$reponse = $db->query("SELECT DISTINCT PRENOMNOM,perso.IDPERSONNEL,SERVICE FROM perso,users 
+					WHERE MEMBRE = 1 AND perso.IDPERSONNEL = users.IDPERSONNEL AND  id_user = ".$_GET['id']); ?>
+					<input  name="id_user" type="hidden" name="id" id="id" class="form-control" id="exampleInputMobile" value="<? echo $_GET['id'];?>">
+					<select name="idpersonnel" class="form-control">
+					<? $donnees = $reponse->fetch() ?>
+					<? $ids = $donnees['IDPERSONNEL'].'/'.$donnees['PRENOMNOM'] ?>
+					  <option value="<?= $ids?>"><?= $donnees['PRENOMNOM']?></option>
+					</select>
+					
+					<? } else { 
+					$reponse = $db->query("SELECT * FROM perso WHERE MEMBRE = 1 "); ?>
+					<select name="idpersonnel" class="form-control">
+					  <option value="">Choisir un utilisateur</option>
+					  <? while($donnees = $reponse->fetch()): ?>
+					  <? $ids = $donnees['IDPERSONNEL'].'/'.$donnees['PRENOMNOM'] ?>
+						<option value="<?= $ids ?>"><?= $donnees['PRENOMNOM']?></option>
+					  <? endwhile ?>
+					</select>
+					<? }?>
+              </div>
                       </div>
                       <div class="form-group row">
                         <label for="exampleInputMobile" class="col-sm-3 col-form-label">Login</label>
@@ -71,6 +88,34 @@ if (isset($_GET['id'])){
                           <?php }?>
                         </div>
                       </div>
+					  <div class="form-group row">
+						<label for="exampleInputMobile" class="col-sm-3 col-form-label">Service</label>
+						 <div class="col-sm-9">
+			  
+					<?  $db = new PDO('mysql:host=localhost;dbname=groupe10_ga', 'groupe10_groupeal', 'Alpages@2017'); ?>
+					
+					<? if (isset($_GET['id'])){
+						
+					$reponse = $db->query("SELECT office FROM users WHERE   id_user = ".$_GET['id']); ?>
+					<select name="office" class="form-control">
+					<? $donnees = $reponse->fetch() ?>
+					<? $ids = $donnees['office'].'/'.$donnees['office'] ?>
+					  <option value="<?= $ids?>"><?= $donnees['office']?></option>
+					</select>
+					
+					<? } else { 
+					$reponse = $db->query("SELECT * FROM services "); ?>
+					<select name="office" class="form-control">
+					  <option value="">Choisir un service</option>
+					  <? while($donnees = $reponse->fetch()): ?>
+					  <? $ids = $donnees['nomservice'].'/'.$donnees['nomservice'] ?>
+						<option value="<?= $ids ?>"><?= $donnees['nomservice']?></option>
+					  <? endwhile ?>
+					</select>
+					<? }?>
+					</div>
+                      </div>
+					  
                       <button  id="sort" name="sopi" class="btn btn-info btn-sm">Modifier</button>
                       <button type="submit" id="sort" name="yonde" class="btn btn-warning btn-sm">Valider</button>
                       <button  onclick="confirmer()" id="sort" name="dindi" class="btn btn-danger btn-sm">Supprimer</button>
@@ -135,10 +180,10 @@ if (isset($_GET['id'])){
                               while($donnees = $reponse->fetch()){
                                 ?>
                               <tr>
-                                 <th> <a href="user.php?id=<?php echo $donnees['id_user'];?>">Choisir </a></th> 
-								                 <td><?php echo htmlspecialchars($donnees['nom_afficher']); ?></td>
+                                <th> <a href="user.php?id=<?php echo $donnees['id_user'];?>">Choisir </a></th> 
+								<td><?php echo htmlspecialchars($donnees['nom_afficher']); ?></td>
                                 <td><?php echo htmlspecialchars($donnees['login']); ?></td>
-                                <td><?php echo htmlspecialchars($donnees['password']); ?></td>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <td><?php echo htmlspecialchars($donnees['password']); ?></td>
                                 <td><?php echo htmlspecialchars($donnees['profil']); ?></td>
                               </tr>
                               <?php } $reponse->closeCursor(); ?>
@@ -160,3 +205,5 @@ if (isset($_GET['id'])){
         }
      </script>
  </div
+
+ 

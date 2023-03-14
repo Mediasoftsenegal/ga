@@ -1,108 +1,39 @@
 <?php
 $db = new PDO('mysql:host=localhost;dbname=groupe10_ga', 'groupe10_groupeal', 'Alpages@2017');
-//Client
-    #Insert
-    if(isset($_POST['bt_client'])){
-        if(empty($_POST['ExonereTVA'])){
-            $ExonereTVA = 0;
-        }else{
-            $ExonereTVA = 1;
-        }
-        if(empty($_POST['PrecompteTVA'])){
-            $PrecompteTVA = 0;
-        }else{
-            $PrecompteTVA = 1;
-        }
-        $NumClient = $_POST['NumClient'];
-        $Societe = $_POST['Societe'];
-        $Civilite = $_POST['Civilite'];
-        $Prenom_s_et_nom = $_POST['Prenom_s_et_nom'];
-        $Adresse = $_POST['Adresse'];
-        $Statut = $_POST['Statut'];
-        $Mail = $_POST['Mail'];
-        $Mobile = $_POST['Mobile'];
-        $Fixe = $_POST['Fixe'];
-        $Fax = $_POST['Fax'];
-        $Bp = $_POST['Bp'];
-        $Ville = $_POST['Ville'];
-        $Type = $_POST['Type'];
-        $Etat_contact = $_POST['Etat_contact'];
-        $Causes = $_POST['Causes'];
-        $Decisions = $_POST['Decisions'];
-        $Observations = $_POST['Observations'];
+$db->exec("SET CHARACTER SET utf8");
+ Function lchaine($lachaine){
+	 
+	 $lach= str_replace("'","\'",$lachaine);
+	 return $lach;
+ }
+ function utf8_xml($string)
+ {
+   return preg_replace('/[^\x{0009}\x{000a}\x{000d}\x{0020}-\x{D7FF}\x{E000}-\x{FFFD}]+/u',
+                       ' ', $string);
+ }
 
-        //$sql = "INSERT INTO `clients`(`CIVILITE`, `PRENOM_NOM`, `ADRESSE`, `MAIL`, `TELMOBILE`, `FAX`, `TELBUREAU`, `BP`, `VILLE`, `OBSERVATIONS`, `TYPECONTACT`, `SOCIETE`, `NUMCLIENT`, `EXONERETVA`, `STATUT`, `PRECOMPTETVA`, `ETATCONT`, `CAUSES`, `DECISIONS`) VALUES (:CIVILITE,:PRENOM_NOM,:ADRESSE,:MAIL,:TELMOBILE,:FAX,:TELBUREAU,:BP,:VILLE,:OBSERVATIONS,:TYPECONTACT,:SOCIETE,:NUMCLIENT,:EXONERETVA,:STATUT,:PRECOMPTETVA,:ETATCONT,:CAUSES,:DECISIONS)";
-		$sql = "INSERT INTO `clients`(`NUMCLIENT`, `SOCIETE`, `CIVILITE`, `PRENOM_NOM`, `TYPECONTACT`, `ADRESSE`, `STATUT`, `MAIL`, `EXONERETVA`, `PRECOMPTETVA`, `MOBILE`, `FIXE`, `BUREAU`, `BP`, `VILLE`, `OBSERVATIONS`, `ETATCONT`, `CAUSES`, `DECISIONS`) VALUES (:NUMCLIENT,:SOCIETE,:CIVILITE,:PRENOM_NOM,:TYPECONTACT,:ADRESSE,:STATUT,:MAIL,:EXONERETVA,:PRECOMPTETVA,:TELMOBILE,:FAX,:TELBUREAU,:BP,:VILLE,:OBSERVATIONS,:ETATCONT,:CAUSES,:DECISIONS)";
-		
-		//echo $sql ;
-        $res = $db->prepare($sql);
-        $exe = $res->execute(array(":CIVILITE"=>$Civilite ,":PRENOM_NOM"=>$Prenom_s_et_nom,":ADRESSE"=>$Adresse,":MAIL"=>$Mail,":TELMOBILE"=>$Mobile,":FAX"=>$Fax,":TELBUREAU"=>$Fixe ,":BP"=>$Bp,":VILLE"=>$Ville,":OBSERVATIONS"=>$Observations,":TYPECONTACT"=>$Type,":SOCIETE"=>$Societe,":NUMCLIENT"=>$NumClient,":EXONERETVA"=>$ExonereTVA ,":STATUT"=>$Statut,":PRECOMPTETVA"=>$PrecompteTVA,":ETATCONT"=>$Etat_contact,":CAUSES"=>$Causes,":DECISIONS"=>$Decisions));
-		//var_dump($exe) ;
-        if($exe){
-            header('location:client.php');
-        }else{
-            echo "Échec de l'opération d'insertion";
-        }
-    }
-    #Modif
-    if(isset($_POST['modifcl'])){
-        if(empty($_POST['exoneretva'])){
-            $ExonereTVA = 0;
-        }else{
-            $ExonereTVA = 1;
-        }
-        if(empty($_POST['precomptetva'])){
-            $PrecompteTVA = 0;
-        }else{
-            $PrecompteTVA = 1;
-        }
-        $NumClient = $_POST['numclient'];
-        $Societe = $_POST['societe'];
-        $Prenom_nom = $_POST['prenom_nom'];
-        $Adresse = $_POST['adresse'];
-        $Statut = $_POST['statut'];
-        $Mail = $_POST['mail'];
-        $Mobile = $_POST['mobile'];
-        $Fixe = $_POST['fixe'];
-        $bureau = $_POST['bureau'];
-        $Bp = $_POST['bp'];
-        $Ville = $_POST['ville'];
-        $Type = $_POST['typecontact'];
-        $Etat_contact = $_POST['etatcont'];
-        $Causes = $_POST['causes'];
-        $Decisions = $_POST['decisions'];
-        $Observations = $_POST['observations'];
-        $id = $_POST['id'];
-        
-        $sql = "UPDATE clients SET `NUMCLIENT`=?,`SOCIETE`=?,`PRENOM_NOM`=?,`TYPECONTACT`=?,`ADRESSE`=?,`STATUT`=?,`MAIL`=?,`EXONERETVA`=?,`PRECOMPTETVA`=?,`MOBILE`=?,`FIXE`=?,`BUREAU`=?,`BP`=?,`VILLE`=?,`OBSERVATIONS`=?,`ETATCONT`=?,`CAUSES`=?,`DECISIONS`=? WHERE IDCONTACTS=$id";
-        $res = $db->prepare($sql);
-        $exe = $res->execute([$NumClient,$Societe,$Prenom_nom,$Type,$Adresse,$Statut,$Mail,$ExonereTVA,$PrecompteTVA,$Mobile,$Fixe,$bureau,$Bp,$Ville,$Observations,$Etat_contact,$Causes,$Decisions]);
 
-        if($exe){
-            header('location:client.php');
-        }else{
-            echo "Échec de l'opération d'insertion";
-        }
-    }
-
-//Offre
+//Offres
     #Insert
     if(isset($_POST['bt_offre'])){
-        $affaire = $_POST['affaire'];
-        $montant = $_POST['montant'];
-        $id_contact = $_POST['id_contact'];
+        $affaire = utf8_xml(lchaine($_POST['AFFAIRE']));
+        $montant = $_POST['MONTANT'];
+        $id_contact = $_POST['IDCONTACTS'];
         $services = $_POST['services'];
-        $maitre_oeuvre = $_POST['maitre_oeuvre'];
-        $date_acquis = $_POST['dateacquisition'];
-        $autre_info = $_POST['autre_infos'];
-        $num_offre = $_POST['num_offre'];
-        $montant_honoraire = $_POST['Montant_honoraire'];
-        $dat=explode("-",$_POST['dateacquisition']);
+        $maitre_oeuvre = $_POST['MAITREOEUVRE'];
+        $date_acquis = $_POST['DATEACQUISITION'];
+        $autre_info = $_POST['AUTRES_INFOS'];
+        $num_offre = $_POST['NUMOFFRE'];
+        $montant_honoraire = $_POST['MONTANTHONORAIRE'];
+        $dat=explode("-",$_POST['DATEACQUISITION']);
         $annee = $dat[0];
-		$missions =$_POST['missions'];
-     
+		$missions =htmlspecialchars($_POST['MISSIONS'], ENT_NOQUOTES, "UTF-8");
+		
+    
 
         $sql = "INSERT INTO `offres`(`AFFAIRE`, `MONTANT`, `IDCONTACTS`, `SERVICE`, `MAITREOEUVRE`, `DATEACQUISITION`, `AUTRES_INFOS`, `NUMOFFRE`, `MONTANTHONORAIRE`,`ANNEE`,`MISSIONS`) VALUES (:AFFAIRE,:MONTANT,:IDCONTACTS,:SERVICE,:MAITREOEUVRE,:DATEACQUISITION,:AUTRES_INFOS,:NUMOFFRE,:MONTANTHONORAIRE,:ANNEE,:MISSIONS)";
+		
+		//echo $sql;
         
         $res = $db->prepare($sql);
         $exe = $res->execute(array(":AFFAIRE"=>$affaire,":MONTANT"=>$montant,":IDCONTACTS"=>$id_contact,":SERVICE"=>$services,":MAITREOEUVRE"=>$maitre_oeuvre,":DATEACQUISITION"=>$date_acquis,":AUTRES_INFOS"=>$autre_info,":NUMOFFRE"=>$num_offre,":MONTANTHONORAIRE"=>$montant_honoraire,":ANNEE"=>$annee,":MISSIONS"=>$missions));
@@ -116,26 +47,28 @@ $db = new PDO('mysql:host=localhost;dbname=groupe10_ga', 'groupe10_groupeal', 'A
 	// Modif offre 
 	  if(isset($_POST['modifoff'])){
 		  
-		  $affaire="'".$_POST['AFFAIRE']."'";
+		  $affaire="'".lchaine($_POST['AFFAIRE'])."'";
 		  $montant=$_POST['MONTANT'];
 		  $idcontact=$_POST['IDCONTACTS'];
-		  $idpersonnel=$_POST['IDPERSONNEL'];
+		  $services="'".$_POST['services']."'";
 		  $maitreoeuvre="'".$_POST['MAITREOEUVRE']."'";
 		  $dateacquisition="'".$_POST['DATEACQUISITION']."'";
 		  $autresinfos="'".$_POST['AUTRES_INFOS']."'";
 		  $numoffre="'".$_POST['NUMOFFRE']."'";
 		  $mthonoraire=$_POST['MONTANTHONORAIRE'];
 		  $annee="'".$_POST['ANNEE']."'";
-		
-	//	$sql = "UPDATE offres SET `AFFAIRE`=?,`MONTANT`=?,`IDCONTACTS`=?,`IDPERSONNEL`=?,`MAITREOEUVRE`=?,`DATEACQUISITION`=?,`AUTRES_INFOS`=?,`NUMOFFRE`=?,`MONTANTHONORAIRE`=?,`ANNEE`=?";
+		  $missions = "'".lchaine($_POST['MISSIONS'])."'";	
+	//	$sql = "UPDATE offres SET `AFFAIRE`=?,`MONTANT`=?,`IDCONTACTS`=?,`SERVICE`=?,`MAITREOEUVRE`=?,`DATEACQUISITION`=?,`AUTRES_INFOS`=?,`NUMOFFRE`=?,`MONTANTHONORAIRE`=?,`ANNEE`=?";
 		 
-		 $sql = "UPDATE offres SET `AFFAIRE`=".$affaire.",`MONTANT`=".$montant.",`IDCONTACTS`=".$idcontact.",`IDPERSONNEL`=".$idpersonnel.",`MAITREOEUVRE`=".$maitreoeuvre.",`DATEACQUISITION`=".$dateacquisition.",`AUTRES_INFOS`=".$autresinfos.",`NUMOFFRE`=".$numoffre.",`MONTANTHONORAIRE`=".$mthonoraire.",`ANNEE`=".$annee." WHERE 
-		 IDOFFRES = ".$_POST['IDOFFRES']."";
+		 $sql = "UPDATE offres SET `AFFAIRE`=".$affaire.",`MONTANT`=".$montant.",`IDCONTACTS`=".$idcontact.",`SERVICE`=".$services.",`MAITREOEUVRE`=".$maitreoeuvre.",`DATEACQUISITION`=".$dateacquisition.",`AUTRES_INFOS`=".$autresinfos.",
+         `NUMOFFRE`=".$numoffre.",`MONTANTHONORAIRE`=".$mthonoraire.",`ANNEE`=".$annee.",
+	    `MISSIONS`=".$missions." WHERE IDOFFRES = ".$_POST['IDOFFRES']."";
 		 
-		 echo $sql ;
+		// echo $sql ;
 		  
 		$res = $db->prepare($sql);
-        $exe = $res->execute([$affaire,$montant,$idcontact,$idpersonnel,$maitreoeuvre,$dateacquisition,$autresinfos,$numoffre,$mthonoraire,$mthonoraire,$annee]);
+        $exe = $res->execute([$affaire,$montant,$idcontact,$services,$maitreoeuvre,$dateacquisition,$autresinfos,
+        $numoffre,$mthonoraire,$annee,$_POST['IDOFFRES']]);
 
         if($exe){
             header('location:offres.php');
@@ -143,6 +76,20 @@ $db = new PDO('mysql:host=localhost;dbname=groupe10_ga', 'groupe10_groupeal', 'A
             echo "Échec de l'opération de modification";
         }
 	  }
+	  // delete
+	   if(isset($_POST['dindi_offre'])){ 
+	    $id=$_POST['id_offre'];
+
+		$sql="DELETE FROM `users` WHERE id_user=$id";
+		$res = $db->prepare($sql);
+		$exe = $res->execute();
+
+		if($exe){
+			header('location:user.php');
+		}else{
+			echo "Échec de l'opération de suppression";
+		}
+	   }
 
 //Affaire
     #Insert

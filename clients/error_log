@@ -1,0 +1,38 @@
+[25-Apr-2022 01:37:44 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:37:44 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:37:44 UTC] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:37:51 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:37:51 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:37:51 UTC] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:38:53 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 2
+[25-Apr-2022 01:38:53 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 2
+[25-Apr-2022 01:38:53 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 2
+[25-Apr-2022 01:38:59 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 2
+[25-Apr-2022 01:38:59 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 2
+[25-Apr-2022 01:38:59 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 2
+[25-Apr-2022 01:39:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/groupe10/ga.groupe-alpages.com/clients/clients.php on line 3
+[25-Apr-2022 01:40:15 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:40:15 UTC] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:40:15 UTC] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 1
+[25-Apr-2022 01:40:53 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 212
+[25-Apr-2022 01:40:53 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 212
+[25-Apr-2022 01:40:53 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 212
+[20-Jun-2022 17:28:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 5
+[20-Jun-2022 17:59:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 5
+[20-Jun-2022 18:03:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 5
+[20-Jun-2022 18:26:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 5
+[20-Jun-2022 18:58:13 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 168
+[20-Jun-2022 18:59:06 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/groupe10/ga.groupe-alpages.com/clients/client.php on line 168
+[22-Jun-2022 00:56:12 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 90
+[22-Jun-2022 00:56:33 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 90
+[22-Jun-2022 00:58:08 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 90
+[22-Jun-2022 00:59:44 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 90
+[22-Jun-2022 01:01:06 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 91
+[22-Jun-2022 01:01:35 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 91
+[22-Jun-2022 01:03:00 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 91
+[22-Jun-2022 01:09:33 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 92
+[22-Jun-2022 01:10:44 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 92
+[22-Jun-2022 01:14:19 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 91
+[22-Jun-2022 01:14:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 91
+[22-Jun-2022 01:17:10 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 91
+[22-Jun-2022 01:20:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/groupe10/ga.groupe-alpages.com/clients/yonou.php:89) in /home/groupe10/ga.groupe-alpages.com/clients/yonou.php on line 94

@@ -3,7 +3,7 @@ include("db_connect.php");
 $request_method = $_SERVER["REQUEST_METHOD"];
 require '../header0.php'; ?>
 
-<div class="main-panel">
+<div class="content-wrapper">
           <div class="content-wrapper">
             <div class="row" id="proBanner">
               <div class="col-12">

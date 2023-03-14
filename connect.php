@@ -49,6 +49,45 @@ Function liste_clients()
 	$exe=mysqli_query($ga_conn,$sql);
 	return $exe;
 }	
+// Nombre offres sur 5 ans
+function nombreoffre()
+{
+	$sql="SELECT ANNEE,COUNT(IDOFFRES) AS NBRE from `offres` GROUP BY ANNEE ORDER BY ANNEE DESC LIMIT 5";
+
+	$ga_conn=ga_connexion();
+	$exe=mysqli_query($ga_conn,$sql);
+	return $exe;
+
+}
+// Nombre offres sur 5 ans
+function nombrecomm()
+{
+	$sql="SELECT  LEFT(DATECOMMANDE,4) AS AN,COUNT(IDCOMMANDES) AS NBRE from commandes 	GROUP BY AN ORDER BY AN DESC LIMIT 5";
+
+	$ga_conn=ga_connexion();
+	$exe=mysqli_query($ga_conn,$sql);
+	return $exe;
+
+}
+// Nombre Affaires sur 5 ans
+function nombreaffaire()
+{
+	$sql="SELECT ANAFF,COUNT(IDAFFAIRES) AS nbre FROM affaires GROUP BY ANAFF  DESC LIMIT 5";
+
+	$ga_conn=ga_connexion();
+	$exe=mysqli_query($ga_conn,$sql);
+	return $exe;
+
+}
+//Montant offres sur 5 ans 
+function montoffre()
+{
+	$sql="SELECT ANNEE,SUM(MONTANTHONORAIRE) AS MONTOFFRE from offres where ANNEE <>0 GROUP BY ANNEE ORDER BY ANNEE DESC LIMIT 5"; 
+
+	$ga_conn=ga_connexion();
+	$exe=mysqli_query($ga_conn,$sql);
+	return $exe;
+}
 // nombre clients
 function compteur()
 {

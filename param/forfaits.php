@@ -8,7 +8,7 @@ if (isset($_GET['id'])){
 }
 ?>
 <!--div class="main-panel"-->
-<div class="main-panel">
+<div class="content-panel">
     <div class="content-wrapper">
         <div class="row" id="proBanner">
             <div class="col-12">
@@ -32,7 +32,7 @@ if (isset($_GET['id'])){
                           <div class="col">
                           Période 
                           <?php if (isset($_GET['id'])){?>
-                          <input type="text" name="nperiod" id="nperiod" class="form-control" id="exampleInputMobile" value="<?php echo $donne['periode'];?>">
+                          <input type="text" name="nperiod" id="nperiod" class="form-control" id="exampleInputMobile" value="<?php echo utf8_encode($donne['periode']);?>">
                           <?php } else { ?>                        
                           <input type="text" name="nperiod" id="nperiod" class="form-control" id="exampleInputMobile" placeholder="Période" required>
                           <?php }?>                         
@@ -176,8 +176,8 @@ if (isset($_GET['id'])){
                                 ?>
                               <tr>
                                 <td> <a href="forfaits.php?id=<?php echo $donnees['id_taux'];?>">Choisir </a></td> 
-                                <td><?php echo $donnees['periode']; ?></td>
-								                <td><?php echo htmlspecialchars($donnees['taux_repasing']); ?></td>
+                                <td><?php echo utf8_encode($donnees['periode']); ?></td>
+								<td><?php echo htmlspecialchars($donnees['taux_repasing']); ?></td>
                                 <td><?php echo htmlspecialchars($donnees['taux_repasins']); ?></td>
                                 <td><?php echo htmlspecialchars($donnees['forfait_nuite']); ?></td>
                                 <td><?php echo htmlspecialchars($donnees['forfait_afriquejour']); ?></td>

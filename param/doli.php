@@ -5,16 +5,20 @@ $db = new PDO('mysql:host=localhost;dbname=groupe10_ga', 'groupe10_groupeal', 'A
 // Ajout user
 if(isset($_POST['yonde'])){
 
-    $nomafficher=$_POST['nom_afficher'];
+	$reg=explode('/', $_POST['idpersonnel']);
+    $nomafficher=$reg[1];
     $login=$_POST['login'];
     $mdp=md5($_POST['password']);
     $profil=$_POST['profil'];
+	$idpersonnel =$reg[0];
+	$office = $_POST['office'];
    
-    $sql = "INSERT INTO `users`(`nom_afficher`, `login`, `password`, `profil`) 
-    VALUES (:nom_afficher,:login,:password,:profil)";
+    $sql = "INSERT INTO `users`(`nom_afficher`, `login`, `password`, `profil`,`IDPERSONNEL`,`office`) 
+    VALUES (:nom_afficher,:login,:password,:profil,:IDPERSONNEL,:office)";
 
     $res = $db->prepare($sql);
-    $exe = $res->execute(array(":nom_afficher"=>$nomafficher ,":login"=>$login,":password"=>$mdp,":profil"=>$profil));
+    $exe = $res->execute(array(":nom_afficher"=>$nomafficher ,":login"=>$login,":password"=>$mdp,":profil"=>$profil,":IDPERSONNEL"=>$idpersonnel,
+	":office"=>$office));
 
     //var_dump($exe) ;
     if($exe){
@@ -69,7 +73,7 @@ if(isset($_POST['yondeau'])){
     `date_cmc`,`Date_1eremc`,`Precedente_imm`,`Date_precedente_imm`,
    `genre`,`marque`,`Carosserie`,`Nom_vehicule`,`type_veh`,`num_serie`,
     `energie`,`puissance`,`Cylindree`,`placesassises`,`PTRA`,`PTAC`,`PV`,
-     `CU`,`Type_vehicule`,`Concessionnaire`,`categorie`,`Tauxkm`,
+    `CU`,`Type_vehicule`,`Concessionnaire`,`categorie`,`Tauxkm`,
     `Forfaits_deplacement`) 
     VALUES (:IDPERSONNEL,:couleur,:num_immat,:Date_immat,
     :Num_titulaire,:Prenomnom_titulaire,:Adresse,
@@ -129,8 +133,6 @@ if(isset($_POST['yondeau'])){
 }
 // Ajout Forfaits
 
-
-
 if(isset($_POST['yondefo'])){
 
     $periode=$_POST['nperiod'];
@@ -166,17 +168,25 @@ if(isset($_POST['yondefo'])){
 // Update user
 if(isset($_POST['sopi'])){
 
+	$reg=explode('/', $_POST['idpersonnel']);
+    $nomafficher=$reg[1];
     $id=$_POST['id_user'];
-    $nomafficher=$_POST['nom_afficher'];
+//	echo 'id : '.$id.'<br>';
+//	echo 'nomafficher : '.$nomafficher.'<br>';
     $login=$_POST['login'];
+//	echo 'login : '.$login.'<br>';
     $mdp=md5($_POST['password']);
+//	echo 'mdp : '.$mdp.'<br>';
     $profil=$_POST['profil'];
-
-    $sql = "UPDATE `users` SET `nom_afficher`=?, `login`=?, `password`=?, `profil`=? 
+//	echo 'profil : '.$profil.'<br>';
+	$idpersonnel =$reg[0];
+//	echo 'idpersonnel : '.$idpersonnel.'<br>';
+	
+    $sql = "UPDATE `users` SET `nom_afficher`=?, `login`=?, `password`=?, `profil`=? , `IDPERSONNEL`=?, `office`=?
     WHERE id_user =$id";
-    
+ //   echo $sql; 
     $res = $db->prepare($sql);
-    $exe = $res->execute([$nomafficher,$login,$mdp,$profil]);   
+    $exe = $res->execute([$nomafficher,$login,$mdp,$profil,$idpersonnel,$office]);   
     
     if($exe){
         header('location:user.php');

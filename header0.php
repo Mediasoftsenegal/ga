@@ -35,8 +35,6 @@
          
           <div class="search-field d-none d-md-block">
                 <div class="nav-profile-text d-flex flex-column">
-                  
-                  
                 </div>        
           </div>
 		  

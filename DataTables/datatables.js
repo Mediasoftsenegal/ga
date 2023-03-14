@@ -14674,11 +14674,11 @@
 		
 		$.extend( extPagination, {
 			simple: function ( page, pages ) {
-				return [ 'Précedent', 'next' ];
+				return [ 'Précedent', 'suivant' ];
 			},
 		
 			full: function ( page, pages ) {
-				return [  'first', 'Précedent', 'next', 'last' ];
+				return [  'Premier', 'Précedent', 'Suivant', 'Dernier' ];
 			},
 		
 			numbers: function ( page, pages ) {
@@ -14686,15 +14686,15 @@
 			},
 		
 			simple_numbers: function ( page, pages ) {
-				return [ 'Précedent', _numbers(page, pages), 'next' ];
+				return [ 'Précedent', _numbers(page, pages), 'Suivant' ];
 			},
 		
 			full_numbers: function ( page, pages ) {
-				return [ 'first', 'Précedent', _numbers(page, pages), 'next', 'last' ];
+				return [ 'Premier', 'Précedent', _numbers(page, pages), 'Suivant', 'Dernier' ];
 			},
 			
 			first_last_numbers: function (page, pages) {
-		 		return ['first', _numbers(page, pages), 'last'];
+		 		return ['Premier', _numbers(page, pages), 'Dernier'];
 		 	},
 		
 			// For testing and plug-ins to use

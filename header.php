@@ -1,11 +1,24 @@
+<? 
+require 'db_class.php';
+$DB = new DB();
+session_start();
+if ($_SESSION["connecter"] == "Oui") 
+{
+  
+} 
+else 
+{
+  header('location:login.php');
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8″ />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?  ?></title>
+    <title></title>
     <!-- plugins:css -->
     <link rel="stylesheet" type="text/css" href="../DataTables/datatables.min.css"/>
     <link rel="stylesheet" type="text/css" href="../assets/vendors/mdi/css/materialdesignicons.min.css">
@@ -28,17 +41,15 @@
       <!-- partial:../../partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" href="#"><img src="../assets/images/ga.png" alt="logo" /><br><h5>Bureau de contrôle Alpages</h5> </a> 
-               </div>
+          <a class="navbar-brand brand-logo" href="#">
+			<img src="../assets/images/ga.png" alt="logo" /><br><h5>Bureau de Contrôle Alpages</h5> </a> 
+        </div>
           
-          <div class="navbar-menu-wrapper d-flex align-items-stretch">
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
          
-          <div class="search-field d-none d-md-block">
-                <div class="nav-profile-text d-flex flex-column">
-                  
-                  
-                </div>        
-          </div>
+        <div class="search-field d-none d-md-block">
+			<div class="nav-profile-text d-flex flex-column"></div>                       
+        </div>
 		  
           <ul class="navbar-nav navbar-nav-center">
 		  
@@ -52,46 +63,48 @@
                 <a href="../clients/client.php" class="nav-link">Clients</a>
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
+         <div class="card card-inverse-danger" id="context-menu-multi">
                 <a href="../offres/offres.php" class="nav-link">Offres</a>
+          </div>      
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
+          <div class="card card-inverse-info" id="context-menu-multi">
                 <a href="../commandes/commandes.php" class="nav-link">Commandes</a>
+          </div>       
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
+          <div class="card card-inverse-success" id="context-menu-multi">
                 <a href="../affaires/affaires.php" class="nav-link">Affaires</a>
+          </div>       
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
                 <a href="../person/tab_perso.php" class="nav-link">Personnel</a>
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
-                <a href="../carnet/carnet.php" class="nav-link">Carnet d'activité</a>
+          <div class="card card-inverse-warning" id="context-menu-multi">
+                <a href="../carnet/carnet01.php" class="nav-link">Carnet d'activité</a>
+          </div>       
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
-                <a href="../carnet/notes.php" class="nav-link">Notes de frais</a>
+                <a href="../notes/notes.php" class="nav-link">Notes de frais</a>
             </li>
 			<li class="nav-item d-none d-sm-inline-block">
                 <a href="../deconnexion.php" class="nav-link">Déconnexion</a>
             </li>
           <div class="template-demo">
-			
-           
-             
-          </div> 
+        </div> 
               <!--a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false"-->
-              <div class="nav-profile-text">
-                 
-                  <p class="mb-1 text-black"><? echo $nomuser;?></p>
-				 
-                </div>
-				
+				<div class="nav-profile-text">
+					<p class="mb-1 text-black"><? echo $_SESSION["nom_afficher"]?></p>
+					<p class="mb-1 text-black"><? echo $_SESSION["id_user"]?></p>
+				</div>
             <!--/a-->
-          </ul>
-        </div>
-      </nav>
-      
-      <!-- partial -->
-      <div class="container-fluid page-body-wrapper">
-        <!-- partial:../../partials/_sidebar.html -->
+			</ul>
+		</div>
+    </nav>
+<!-- partial -->
+<div class="container-fluid page-body-wrapper">
+<!-- partial:../../partials/_sidebar.html -->
     
            
             
